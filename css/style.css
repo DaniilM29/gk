@@ -63,7 +63,8 @@ body{
 	cursor: pointer;
 	background: #a30909;
 }
-.menu-link{
+.menu-top .menu-link{
+	padding: 10px 0;
 	color: #fff;
 	font-size: 22px;
 	font-weight: 400;
@@ -185,7 +186,7 @@ body{
 }
 .product-name{
 	color: #000;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 500;
 	margin-bottom: 8px;
 	padding-top: 5px;
@@ -195,7 +196,7 @@ body{
 	margin-left: 8px;
 }
 .product-subtitle p{
-	font-size: 17px;
+	font-size: 14px;
 	line-height: 22px;
 	font-weight: 400;
 	color: #000;
@@ -204,7 +205,7 @@ body{
 	min-height:300px 
 }
 .product-height img{
-	height: 222px;
+	height: 255px;
 }
 
 .img-size{
@@ -221,8 +222,8 @@ body{
 	justify-content: space-around;
 }
 .subtitle{
-	font-size: 21px;
-	line-height: 28px;
+	font-size: 16px;
+	line-height: 26px;
 	font-weight: 400;
 }
 .productstr-subtitle{
@@ -281,6 +282,11 @@ body{
 .dostavka-content{
 	padding: 50px 0;
 }
+
+.dostavka-content{
+	margin-bottom: 100px;
+}
+
 
 
 /*mobile menu*/
@@ -447,6 +453,9 @@ body{
 	}
 	.subtitle-info p{
 		line-height: 22px;
+	}
+	.menu-link{
+		font-size: 22px;
 	}
 }
 @media screen and (max-width: 551px){
